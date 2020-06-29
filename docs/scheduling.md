@@ -72,7 +72,8 @@ int schedulerRegister(void)
 
 ```
 
-    A ```graphStaticScheduler```  object need to be constructed, and then user needs to provide an entry for ThunderGP to execute, the **```schedulerRegister```**, in this function ```registerScheduler``` need to be called for register the ```dut``` which is the ```graphStaticScheduler``` object constructed earlier.
+
+A ```graphStaticScheduler```  object need to be constructed, and then user needs to provide an entry for ThunderGP to execute, the **```schedulerRegister```**, in this function ```registerScheduler``` need to be called for register the ```dut``` which is the ```graphStaticScheduler``` object constructed earlier.
 
 * Finally, to run the application with this customized scheduler, the ```SCHEDULER``` variable in the  ```build.mk``` which is located at the application-specific path need to be modified as the name of the folder which is described in the first step.
 
